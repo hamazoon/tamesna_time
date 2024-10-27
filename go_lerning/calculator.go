@@ -17,6 +17,6 @@ func main () {
 	fmt.Printf(" the divition of a by b is  %d\n" , div)
 
 	var min = a-b 
-	fmt.Printf("a minece b is %d\n" , min)
+	fmt.Printf("a mince b is %d\n" , min)
 
 }
