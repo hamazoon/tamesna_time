@@ -23,15 +23,15 @@ func main () {
 	delete(mp, "zaid")	// delete an element 
 	fmt.Println("my map =" ,mp)
 
-	val, ok := mp["khalid"]
+	val, ok := mp["khalid"] 	//checke if the key "khalid" exist
 	if ok {
 		fmt.Println("value is ", val)
 	} else {
 		fmt.Println("the value is NON")
 	}
-	val1, ok := mp["hamza"]
+	val1, ok := mp["hamza"] 	// check if the key "hamza" exist 
 	if ok {
-		fmt.Println("value is ", val1)
+		fmt.Println("value is ", val1) 
 	} else {
 		fmt.Println("the value is NON")
 	}
