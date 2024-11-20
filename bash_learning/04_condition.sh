@@ -2,6 +2,34 @@
 
 echo " Welcome to the digital game win or die"
 
+echo "Please select your class:
+1 - viking
+2 - samuray
+3 - othmani"
+read class
+
+case $class in
+	1)
+		type="viking"
+		defonce=10
+		attack=15
+		magic=13
+		;;
+	2)
+		type="samuray"
+		defonce=16
+		attack=15
+		magic=15
+		;;
+	3)
+		type="othmani"
+		defonce=16
+		attack=17
+		magic=18
+		;;
+esac
+echo "You chose the $type class. your defonce is $defonce. your attack is $attack. and you magic is $magic "
+
 rand=$(( $RANDOM % 2 ))
 
 echo "Chose a number between (1/0)"
