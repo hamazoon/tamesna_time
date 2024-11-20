@@ -1,9 +1,9 @@
 #! /bin/bash
-
-echo "good morning bash "
-sleep 3 
-echo "hello bash"
-sleep 3 
-echo "i'm ready to discover this world"
-sleep 3 
-echo "good bye"
+name="bash"
+echo "good morning $name "
+sleep 2 
+echo "hello $name"
+sleep 2 
+echo "i'm ready to discover this world of $name"
+sleep 2
+echo "good $name"
