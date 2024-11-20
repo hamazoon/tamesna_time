@@ -16,5 +16,5 @@ sleep 2
 echo "$greating bye $name"
 sleep 3
 
-echo "you are currently logging in as $user and you are in the directory $whereami . also now is: $date"
+echo "you are currently logging in as $user. and you are in the directory $whereami. also now is: $date"
 
