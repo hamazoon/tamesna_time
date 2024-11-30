@@ -4,8 +4,9 @@ import "fmt"
 
 func main () {
 	s := [] int {5,13,3,17,19,7,12}
-	fmt.Println(s)
+	fmt.Println("Before sorting:",s)
 	sorting(s)
+	fmt.Println("After sorting:",s)
 }
 func sorting (arr[] int) {
 	n := len(arr)
@@ -24,5 +25,4 @@ func sorting (arr[] int) {
 			break
 		}
 	} 
-	fmt.Println(arr)
 }
