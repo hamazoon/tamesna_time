@@ -17,6 +17,7 @@ func sorting (arr[] int) {
 				arr[j] = arr[j+1]
 				arr[j+1] = temp
 				flag = 1
+				fmt.Println(arr)
 			}
 		}
 		if flag == 0 {
