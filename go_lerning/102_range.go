@@ -33,5 +33,5 @@ func main()  {
 
 	var num1, _= strconv.ParseFloat(c, 64)
 	var num2, _ = strconv.ParseInt(z, 10, 64)
-	fmt.Printf("\nnum1 type is %T and value is %v \n num2 type is %T and value is %v ", num1, num1, num2, num2)
+	fmt.Printf("\nnum1 type is %T and value is %v \n num2 type is %T and value is %v\n ", num1, num1, num2, num2)
 }
