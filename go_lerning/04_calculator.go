@@ -17,7 +17,7 @@ func mul(e , f  int ) int {
 	return mul
 }
 
-func div (x , y  int) int {
+func div (x , y  float64) float64 {
 	div := x / y 
 	return div 
 	
