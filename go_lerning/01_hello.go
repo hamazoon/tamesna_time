@@ -4,7 +4,7 @@ import "fmt"
 
 func main(){
 
-	fmt.Println("Hello, World!")//print steatment
+	fmt.Println("Hello,World")//print steatment
 
 	var Location string = "tamesna"// declaration of string varibele
 	fmt.Println(Location)
